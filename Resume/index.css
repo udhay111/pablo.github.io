@@ -455,7 +455,7 @@ input:focus, textarea:focus, select:focus
 #introgrid > .row > .col-1
 {
    float: left;
-   height: 588px;
+   height: 585px;
 }
 #introgrid > .row > .col-1
 {
@@ -1859,7 +1859,7 @@ input:focus, textarea:focus, select:focus
 }
 #Table1 td
 {
-   padding: 0;
+   padding: 1px 1px 1px 1px;
 }
 #Table1 td div
 {
@@ -1876,12 +1876,16 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    text-align: right;
    vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
 }
 #Table1 .cell1
 {
    background-color: transparent;
    background-image: none;
-   text-align: left;
+   text-align: center;
    vertical-align: top;
    color: #000000;
    font-family: Arial;
@@ -1892,8 +1896,8 @@ input:focus, textarea:focus, select:focus
 {
    background-color: transparent;
    background-image: none;
-   text-align: right;
-   vertical-align: middle;
+   text-align: left;
+   vertical-align: top;
    color: #000000;
    font-family: Arial;
    font-size: 13px;
@@ -1903,8 +1907,26 @@ input:focus, textarea:focus, select:focus
 {
    background-color: transparent;
    background-image: none;
+   text-align: right;
+   vertical-align: middle;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
    text-align: left;
    vertical-align: top;
+}
+#Table1 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
 }
 #wb_Text1 
 {

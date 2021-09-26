@@ -15,7 +15,7 @@ $(document).ready(function()
 {
    $("#Tabs1").tabs(
    {
-      show: false,
+      show: { effect: 'slide', direction: 'left', duration: 400 },
       hide: false,
       event: 'click',
       collapsible: false
@@ -25,14 +25,18 @@ $(document).ready(function()
 </head>
 <body>
 
-<div id="Tabs1" style="position:absolute;left:0px;top:0px;width:855px;height:422px;z-index:2;">
+<div id="Tabs1" style="position:absolute;left:0px;top:0px;width:821px;height:422px;z-index:4;">
 <ul>
 <li><a href="#tabs1-page-1"><span><i class="fa fa-child tabs-icon"></i>About Me</span></a></li>
-<li><a href="#tabs1-page-2"><span>Tab 2</span></a></li>
+<li><a href="#tabs1-page-2"><span><i class="fa fa-address-card tabs-icon"></i>Communication</span></a></li>
 </ul>
 <div style="height:422px;" id="tabs1-page-1">
-<div id="wb_Image1" style="position:absolute;left:42px;top:4px;width:767px;height:414px;z-index:0;">
+<div id="wb_Image1" style="position:absolute;left:0px;top:4px;width:767px;height:414px;z-index:0;">
 <img src="images/pearls-blueprints-calculator-civil-engineering-wallpaper-preview.jpg" id="Image1" alt="" width="767" height="511"></div>
+<div id="wb_Text1" style="position:absolute;left:22px;top:32px;width:605px;height:89px;z-index:1;">
+<span style="color:#000000;font-family:Arial;font-size:20px;">I am energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am Presented with. I am excellent in working with others to achieve a certain objective on time and with excellence</span></div>
+<div id="wb_Image2" style="position:absolute;left:627px;top:32px;width:209px;height:209px;z-index:2;">
+<img src="images/Img_Udhay2.jpg" id="Image2" alt="" width="209" height="209"></div>
 </div>
 <div style="height:422px;" id="tabs1-page-2">
 </div>

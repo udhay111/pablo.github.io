@@ -455,7 +455,7 @@ input:focus, textarea:focus, select:focus
 #introgrid > .row > .col-1
 {
    float: left;
-   height: 576px;
+   height: 411px;
 }
 #introgrid > .row > .col-1
 {
@@ -1835,78 +1835,6 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
 }
-#Table1
-{
-   border: 0px solid transparent;
-   background-color: transparent;
-   background-image: none;
-   border-collapse: separate;
-   border-spacing: 1px;
-   margin: 0;
-}
-#Table1 td
-{
-   padding: 1px 1px 1px 1px;
-}
-#Table1 p, #Table1 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#Table1 .cell0
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: right;
-   vertical-align: middle;
-   color: #000000;
-   font-family: Arial;
-   font-size: 13px;
-}
-#Table1 .cell1
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: top;
-   color: #000000;
-   font-family: Arial;
-   font-size: 13px;
-}
-#Table1 .cell2
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: top;
-   color: #000000;
-   font-family: Arial;
-   font-size: 13px;
-}
-#Table1 .cell3
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: right;
-   vertical-align: middle;
-}
-#Table1 .cell4
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: top;
-}
-#Table1 .cell5
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   color: #000000;
-   font-family: Arial;
-   font-size: 13px;
-}
 #wb_Text1 
 {
    background-color: transparent;
@@ -1927,6 +1855,26 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    width: 100%;
 }
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_Text3
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #wb_Text2 
 {
    background-color: transparent;
@@ -1939,11 +1887,4 @@ input:focus, textarea:focus, select:focus
 #wb_Text2 div
 {
    text-align: left;
-}
-#wb_Text2
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
 }

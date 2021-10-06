@@ -1556,13 +1556,24 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    text-align: left;
-   vertical-align: middle;
+   vertical-align: top;
    color: #000000;
    font-family: Arial;
    font-size: 16px;
    line-height: 18px;
 }
 #indexTable5 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   font-size: 16px;
+   line-height: 18px;
+}
+#indexTable5 .cell3
 {
    background-color: transparent;
    background-image: none;
@@ -1573,7 +1584,7 @@ input:focus, textarea:focus, select:focus
    font-size: 16px;
    line-height: 18px;
 }
-#indexTable5 .cell3
+#indexTable5 .cell4
 {
    background-color: transparent;
    background-image: none;

@@ -1568,6 +1568,75 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    vertical-align: top;
 }
+#indexFlexContainer1
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#indexFlexContainer2
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#indexFlexContainer3
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
 #wb_uid51
 {
    font-size: 16px;
@@ -1578,19 +1647,19 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 61;
+   z-index: 64;
 }
 #wb_indexHeading2
 {
    display: inline-block;
    width: 100%;
-   z-index: 59;
+   z-index: 62;
 }
 #wb_indexHeading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 58;
+   z-index: 61;
 }
 #wb_uid24
 {
@@ -1606,7 +1675,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 33;
+   z-index: 35;
    position: relative;
 }
 #wb_page1Image3
@@ -1614,7 +1683,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 28;
+   z-index: 30;
 }
 #indexShape2
 {
@@ -1624,8 +1693,9 @@ input:focus, textarea:focus, select:focus
 #wb_indexHeading5
 {
    display: inline-block;
-   width: 100%;
-   z-index: 44;
+   width: 277px;
+   height: 37px;
+   z-index: 47;
 }
 #wb_page1Image2
 {
@@ -1645,7 +1715,7 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 41;
+   z-index: 44;
 }
 #wb_uid5
 {
@@ -1672,7 +1742,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 32;
+   z-index: 34;
    position: relative;
 }
 #indexShape3
@@ -1767,7 +1837,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 107px;
-   z-index: 42;
+   z-index: 45;
 }
 #indexClipArt1
 {
@@ -1785,7 +1855,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 35;
+   z-index: 38;
 }
 #wb_uid36
 {
@@ -1847,7 +1917,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 44px;
-   z-index: 55;
+   z-index: 58;
 }
 #wb_uid14
 {
@@ -1859,14 +1929,14 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 26px;
-   z-index: 51;
+   z-index: 54;
 }
 #wb17_wizzypediaTable2
 {
    display: table;
    width: 100%;
    height: 201px;
-   z-index: 39;
+   z-index: 42;
 }
 #wb_uid41
 {
@@ -1922,20 +1992,20 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 50;
+   z-index: 53;
 }
 #wb_wb17_wizzypediaHeading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 48;
+   z-index: 51;
 }
 #wb_indexImage3
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 21;
+   z-index: 22;
 }
 #page1Shape1
 {
@@ -1960,7 +2030,7 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 36;
+   z-index: 39;
 }
 #wb_uid56
 {
@@ -2020,7 +2090,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 31;
+   z-index: 33;
    position: relative;
 }
 #indexShape9
@@ -2038,7 +2108,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 93px;
-   z-index: 62;
+   z-index: 65;
 }
 #wb_uid44
 {
@@ -2059,14 +2129,14 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 27;
+   z-index: 28;
    position: relative;
 }
 #wb_page1Heading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 37;
+   z-index: 40;
 }
 #wb_uid55
 {
@@ -2084,14 +2154,14 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 56px;
-   z-index: 60;
+   z-index: 63;
 }
 #wb_indexShape11
 {
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 26;
+   z-index: 27;
    position: relative;
 }
 #wb_uid9
@@ -2154,7 +2224,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 25;
+   z-index: 26;
    position: relative;
 }
 #indexShape7
@@ -2194,7 +2264,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 30;
+   z-index: 32;
    position: relative;
 }
 #wb_indexShape9
@@ -2202,7 +2272,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 24;
+   z-index: 25;
    position: relative;
 }
 #wb_indexShape1
@@ -2210,7 +2280,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 23;
+   z-index: 24;
    position: relative;
 }
 #wb_indexShape8
@@ -2271,7 +2341,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 10px;
    height: 10px;
-   z-index: 34;
+   z-index: 36;
    position: relative;
 }
 #wb_uid6

@@ -981,8 +981,8 @@ input:focus, textarea:focus, select:focus
    border-right-color: #000000;
    border-bottom-color: #000000;
    border-left-color: #000000;
-   text-align: left;
-   vertical-align: top;
+   text-align: right;
+   vertical-align: middle;
    font-size: 0;
 }
 #page1Table1 .cell1
@@ -1051,6 +1051,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_page1Image1
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -1058,18 +1059,16 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #000000;
    border-radius: 0px;
-   box-sizing: border-box;
    padding: 0;
-   display: block;
+   display: inline-block;
    width: 100%;
-   height: auto;
-   max-width: 48px;
-   margin-left: auto;
-   margin-right: auto;
+   height: 100%;
    vertical-align: top;
+   object-fit: scale-down;
 }
 #wb_page1Image2
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -1077,15 +1076,12 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #000000;
    border-radius: 0px;
-   box-sizing: border-box;
    padding: 0;
-   display: block;
+   display: inline-block;
    width: 100%;
-   height: auto;
-   max-width: 48px;
-   margin-left: auto;
-   margin-right: auto;
+   height: 100%;
    vertical-align: top;
+   object-fit: scale-down;
 }
 #wb_indexText5 
 {
@@ -1147,8 +1143,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: middle;
    color: #000000;
    font-family: Arial;
-   font-size: 15px;
-   line-height: 16.5px;
+   font-size: 16px;
+   line-height: 18px;
 }
 #indexTable3 .cell2
 {
@@ -1158,8 +1154,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: middle;
    color: #000000;
    font-family: Arial;
-   font-size: 16px;
-   line-height: 18px;
+   font-size: 15px;
+   line-height: 16.5px;
 }
 #wb_indexImage4
 {
@@ -1312,6 +1308,234 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+#indexTable4
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#indexTable4 td
+{
+   padding: 0;
+}
+#indexTable4 p, #indexTable4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#indexTable4 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 0;
+}
+#indexTable4 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 16.5px;
+}
+#indexTable4 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#indexTable4 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: bottom;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#page1Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#page1Shape20
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape6
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#page1Shape21
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape7
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape8
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape9
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape10
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape11
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape12
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape13
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#indexShape14
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#page1Shape14
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#page1Shape15
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#page1Shape16
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#page1Shape17
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#page1Shape18
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_indexImage2
+{
+   height: 100%;
+   margin: 0;
+   vertical-align: top;
+}
+#indexImage2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: scale-down;
+}
+#wb_indexImage3
+{
+   height: 100%;
+   margin: 0;
+   vertical-align: top;
+}
+#indexImage3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: scale-down;
+}
+#wb_page1Image3
+{
+   height: 100%;
+   margin: 0;
+   vertical-align: top;
+}
+#page1Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: scale-down;
+}
+#wb_page1Image4
+{
+   height: 100%;
+   margin: 0;
+   vertical-align: top;
+}
+#page1Image4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: scale-down;
+}
 #wb_uid61
 {
    font-size: 16px;
@@ -1327,19 +1551,19 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 58;
+   z-index: 83;
 }
 #wb_indexHeading2
 {
    display: inline-block;
    width: 100%;
-   z-index: 56;
+   z-index: 81;
 }
 #wb_indexHeading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 55;
+   z-index: 80;
 }
 #wb_uid24
 {
@@ -1347,43 +1571,62 @@ input:focus, textarea:focus, select:focus
    font-family: "Arial";
    font-size: 19px;
 }
-#wb_indexHeading6
+#wb_page1Image4
 {
    display: inline-block;
-   width: 277px;
-   height: 37px;
+   width: 16px;
+   height: 16px;
+   z-index: 50;
+}
+#indexShape2
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_page1Image3
+{
+   display: inline-block;
+   width: 16px;
+   height: 16px;
    z-index: 44;
 }
 #wb_uid12
 {
    font-size: 13px;
 }
+#wb_indexHeading6
+{
+   display: inline-block;
+   width: 277px;
+   height: 37px;
+   z-index: 68;
+}
 #wb_indexHeading5
 {
    display: inline-block;
    width: 277px;
    height: 37px;
-   z-index: 41;
+   z-index: 65;
 }
 #wb_page1Image2
 {
    display: inline-block;
-   width: 100%;
-   height: auto;
+   width: 46px;
+   height: 48px;
    z-index: 13;
 }
 #wb_page1Image1
 {
    display: inline-block;
-   width: 100%;
-   height: auto;
+   width: 50px;
+   height: 48px;
    z-index: 11;
 }
 #wb_indexHeading4
 {
    display: inline-block;
    width: 100%;
-   z-index: 38;
+   z-index: 62;
 }
 #wb_uid5
 {
@@ -1402,10 +1645,30 @@ input:focus, textarea:focus, select:focus
    font-size: 16px;
    line-height: 18px;
 }
+#wb_indexShape14
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 40;
+   position: relative;
+}
+#indexShape3
+{
+   width: 10px;
+   height: 10px;
+}
 #wb_uid13
 {
    font-size: 16px;
    line-height: 18px;
+}
+#indexTable4
+{
+   display: table;
+   width: 100%;
+   height: 71px;
+   z-index: 69;
 }
 #page1Shape9
 {
@@ -1429,15 +1692,14 @@ input:focus, textarea:focus, select:focus
    font-size: 16px;
    line-height: 18px;
 }
+#wb_uid10
+{
+   font-size: 13px;
+}
 #page1Shape8
 {
    width: 10px;
    height: 10px;
-}
-#wb_uid10
-{
-   font-size: 13px;
-   line-height: 16px;
 }
 #wb_uid3
 {
@@ -1454,7 +1716,32 @@ input:focus, textarea:focus, select:focus
    font-size: 13px;
    line-height: 16px;
 }
-#indexShape17
+#indexShape10
+{
+   width: 10px;
+   height: 10px;
+}
+#indexShape13
+{
+   width: 10px;
+   height: 10px;
+}
+#indexShape12
+{
+   width: 10px;
+   height: 10px;
+}
+#indexShape11
+{
+   width: 10px;
+   height: 10px;
+}
+#indexShape14
+{
+   width: 10px;
+   height: 10px;
+}
+#indexShape1
 {
    width: 10px;
    height: 10px;
@@ -1464,12 +1751,17 @@ input:focus, textarea:focus, select:focus
    font-size: 16px;
    line-height: 18px;
 }
+#indexShape17
+{
+   width: 10px;
+   height: 10px;
+}
 #page1Table1
 {
    display: table;
    width: 100%;
    height: 107px;
-   z-index: 39;
+   z-index: 63;
 }
 #indexClipArt1
 {
@@ -1487,7 +1779,7 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 32;
+   z-index: 56;
 }
 #wb_uid36
 {
@@ -1561,14 +1853,14 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 44px;
-   z-index: 52;
+   z-index: 77;
 }
 #wb17_wizzypediaTable1
 {
    display: table;
    width: 100%;
    height: 26px;
-   z-index: 48;
+   z-index: 73;
 }
 #wb_uid14
 {
@@ -1594,7 +1886,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 201px;
-   z-index: 36;
+   z-index: 60;
 }
 #wb_uid41
 {
@@ -1609,6 +1901,22 @@ input:focus, textarea:focus, select:focus
 {
    font-size: 13px;
    line-height: 16px;
+}
+#wb_page1Shape20
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 51;
+   position: relative;
+}
+#wb_page1Shape1
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 33;
+   position: relative;
 }
 #page1Shape7
 {
@@ -1702,6 +2010,14 @@ input:focus, textarea:focus, select:focus
    line-height: 16px;
    font-weight: bold;
 }
+#wb_page1Shape21
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 49;
+   position: relative;
+}
 #page1Shape6
 {
    width: 10px;
@@ -1734,13 +2050,65 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 47;
+   z-index: 72;
 }
 #wb_wb17_wizzypediaHeading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 45;
+   z-index: 70;
+}
+#page1Shape15
+{
+   width: 10px;
+   height: 10px;
+}
+#page1Shape14
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_indexImage3
+{
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   z-index: 38;
+}
+#page1Shape18
+{
+   width: 10px;
+   height: 10px;
+}
+#page1Shape17
+{
+   width: 10px;
+   height: 10px;
+}
+#page1Shape16
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_page1Shape16
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 34;
+   position: relative;
+}
+#page1Shape1
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_indexImage2
+{
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   z-index: 32;
 }
 #page1Shape13
 {
@@ -1794,7 +2162,7 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 33;
+   z-index: 57;
 }
 #wb_uid56
 {
@@ -1804,6 +2172,19 @@ input:focus, textarea:focus, select:focus
 #wb_uid42
 {
    margin: 0 0 0 24px;
+}
+#indexShape8
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_page1Shape17
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 35;
+   position: relative;
 }
 #wb_wb17_wizzypediaClipArt1
 {
@@ -1842,6 +2223,27 @@ input:focus, textarea:focus, select:focus
    font-size: 13px;
    line-height: 16px;
 }
+#indexShape9
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_indexShape13
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 48;
+   position: relative;
+}
+#wb_page1Shape14
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 41;
+   position: relative;
+}
 #page1Shape3
 {
    width: 10px;
@@ -1852,7 +2254,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 102px;
-   z-index: 42;
+   z-index: 66;
 }
 #wb_uid54
 {
@@ -1865,7 +2267,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 93px;
-   z-index: 59;
+   z-index: 84;
 }
 #wb_uid44
 {
@@ -1881,6 +2283,32 @@ input:focus, textarea:focus, select:focus
    line-height: 18px;
    font-weight: bold;
 }
+#page1Shape20
+{
+   width: 10px;
+   height: 10px;
+}
+#page1Shape21
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_indexShape12
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 47;
+   position: relative;
+}
+#wb_page1Shape15
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 42;
+   position: relative;
+}
 #page1Shape2
 {
    width: 10px;
@@ -1890,7 +2318,7 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 100%;
-   z-index: 34;
+   z-index: 58;
 }
 #wb_uid55
 {
@@ -1903,16 +2331,29 @@ input:focus, textarea:focus, select:focus
    display: table;
    width: 100%;
    height: 56px;
-   z-index: 57;
+   z-index: 82;
 }
 #wb_uid47
 {
    margin: 0 0 0 24px;
 }
+#wb_indexShape11
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 46;
+   position: relative;
+}
+#indexShape6
+{
+   width: 10px;
+   height: 10px;
+}
 #wb_uid9
 {
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 16px;
+   line-height: 18px;
 }
 #wb_indexClipArt3
 {
@@ -1955,10 +2396,23 @@ input:focus, textarea:focus, select:focus
 {
    margin: 0 0 0 24px;
 }
+#indexShape7
+{
+   width: 10px;
+   height: 10px;
+}
+#wb_indexShape10
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 53;
+   position: relative;
+}
 #wb_uid8
 {
-   font-size: 16px;
-   line-height: 18px;
+   font-size: 13px;
+   line-height: 16px;
 }
 #wb_uid63
 {
@@ -1983,6 +2437,62 @@ input:focus, textarea:focus, select:focus
 #wb_uid26
 {
    margin: 0 0 0 24px;
+}
+#wb_indexShape7
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 55;
+   position: relative;
+}
+#wb_indexShape9
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 54;
+   position: relative;
+}
+#wb_indexShape8
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 52;
+   position: relative;
+}
+#wb_indexShape2
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 45;
+   position: relative;
+}
+#wb_indexShape6
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 43;
+   position: relative;
+}
+#wb_indexShape1
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 39;
+   position: relative;
+}
+#wb_indexShape3
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 37;
+   position: relative;
 }
 #wb_indexShape17
 {
@@ -2038,6 +2548,14 @@ input:focus, textarea:focus, select:focus
 #wb_uid25
 {
    list-style-type: disc;
+}
+#wb_page1Shape18
+{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   z-index: 36;
+   position: relative;
 }
 #indexShape5
 {

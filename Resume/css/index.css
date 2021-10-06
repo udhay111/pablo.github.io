@@ -1110,6 +1110,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_indexImage2
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -1117,15 +1118,12 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #000000;
    border-radius: 0px;
-   box-sizing: border-box;
    padding: 0;
-   display: block;
+   display: inline-block;
    width: 100%;
-   height: auto;
-   max-width: 524px;
-   margin-left: auto;
-   margin-right: auto;
+   height: 100%;
    vertical-align: top;
+   object-fit: scale-down;
 }
 #page1Shape1
 {
@@ -1134,6 +1132,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_indexImage3
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -1141,18 +1140,16 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #000000;
    border-radius: 0px;
-   box-sizing: border-box;
    padding: 0;
-   display: block;
+   display: inline-block;
    width: 100%;
-   height: auto;
-   max-width: 501px;
-   margin-left: auto;
-   margin-right: auto;
+   height: 100%;
    vertical-align: top;
+   object-fit: scale-down;
 }
 #wb_page1Image3
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -1160,15 +1157,12 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #000000;
    border-radius: 0px;
-   box-sizing: border-box;
    padding: 0;
-   display: block;
+   display: inline-block;
    width: 100%;
-   height: auto;
-   max-width: 64px;
-   margin-left: auto;
-   margin-right: auto;
+   height: 100%;
    vertical-align: top;
+   object-fit: scale-down;
 }
 #wb_indexHeading5
 {
@@ -1681,8 +1675,8 @@ input:focus, textarea:focus, select:focus
 #wb_page1Image3
 {
    display: inline-block;
-   width: 100%;
-   height: auto;
+   width: 34px;
+   height: 34px;
    z-index: 30;
 }
 #indexShape2
@@ -2003,8 +1997,8 @@ input:focus, textarea:focus, select:focus
 #wb_indexImage3
 {
    display: inline-block;
-   width: 100%;
-   height: auto;
+   width: 34px;
+   height: 30px;
    z-index: 22;
 }
 #page1Shape1
@@ -2015,8 +2009,8 @@ input:focus, textarea:focus, select:focus
 #wb_indexImage2
 {
    display: inline-block;
-   width: 100%;
-   height: auto;
+   width: 34px;
+   height: 34px;
    z-index: 14;
 }
 #wb_indexImage1

@@ -158,7 +158,7 @@ input:focus, textarea:focus, select:focus
 }
 #portfolioLayoutGrid1 > .row > .col-1
 {
-   background-color: transparent;
+   background-color: #E6E6FA;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;

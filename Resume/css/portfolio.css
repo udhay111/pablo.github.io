@@ -117,91 +117,103 @@ input:focus, textarea:focus, select:focus
 {
    text-align: center;
 }
-#portfolioPhotoGallery1
+#wb_portfolioLayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#portfolioLayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#portfolioLayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#portfolioLayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#portfolioLayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#portfolioLayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: left;
+}
+#portfolioLayoutGrid1:before,
+#portfolioLayoutGrid1:after,
+#portfolioLayoutGrid1 .row:before,
+#portfolioLayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#portfolioLayoutGrid1:after,
+#portfolioLayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#portfolioLayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#portfolioPhotoCollage1
 {
    box-sizing: border-box;
    font-size: 0;
    width: 100%;
    height: 100%;
+   table-layout: fixed;
    display: table;
    margin: 0;
-}
-#portfolioPhotoGallery1 .thumbnails
-{
-   margin: 0;
-   font-size: 0;
-}
-#portfolioPhotoGallery1 .thumbnail
-{
    position: relative;
-   min-height: 1px;
-   box-sizing: border-box;
-   display: inline-block;
-   margin: 0;
-   padding: 3px 3px 3px 3px;
-   width: 33.33333333%;
-   text-align: center;
-   vertical-align: middle;
 }
-#portfolioPhotoGallery1 .thumbnail img
+#portfolioPhotoCollage1 .thumbnail img
 {
    border: 0px #000000 solid;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 100%;
    box-sizing: border-box;
    border-radius: 0px;
 }
-#portfolioPhotoGallery1 .clearfix:before,
-#portfolioPhotoGallery1 .clearfix:after,
-#portfolioPhotoGallery1 .thumbnails:before,
-#portfolioPhotoGallery1 .thumbnails:after
+#portfolioPhotoCollage1 .thumbnail
 {
-   display: table;
-   content: " ";
-}
-#portfolioPhotoGallery1 .clearfix:after,
-#portfolioPhotoGallery1 .thumbnails:after
-{
-   clear: both;
-}
-#portfolioPhotoGallery1 .visible-col3
-{
-   display: block;
-}
-#wb_portfolioPhotoGallery1
-{
-   position: relative;
-   -webkit-flex-grow: 0;
-   flex-grow: 0;
-   -webkit-flex-shrink: 0;
-   flex-shrink: 0;
-   -webkit-align-self: auto;
-   align-self: auto;
-}
-#portfolioFlexContainer3
-{
-   display: -webkit-flex;
-   display: flex;
-   position: relative;
-   padding: 10px 10px 10px 10px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: nowrap;
-   flex-wrap: nowrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: flex-start;
-   align-content: flex-start;
+   position: absolute;
    margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   font-size: 0px;
+}
+#portfolioPhotoCollage1 .thumbnail img
+{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
 }
 #wb_uid2
 {
@@ -224,10 +236,9 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    z-index: 250;
 }
-#wb_portfolioPhotoGallery1
+#wb_portfolioPhotoCollage1
 {
    display: inline-block;
-   width: 729px;
-   height: 278px;
+   width: 100%;
    z-index: 2;
 }

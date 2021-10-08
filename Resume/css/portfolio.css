@@ -54,39 +54,12 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    font-size: 0px;
 }
-#wb_portfolioText1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_portfolioText1 div
-{
-   text-align: center;
-}
-#wb_portfolioText1
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
 #wb_portfolioText2 
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   -webkit-flex-grow: 1;
-   flex-grow: 1;
-   -webkit-flex-shrink: 1;
-   flex-shrink: 1;
-   -webkit-align-self: auto;
-   align-self: auto;
    padding: 0;
    margin: 0;
    text-align: center;
@@ -94,6 +67,13 @@ input:focus, textarea:focus, select:focus
 #wb_portfolioText2 div
 {
    text-align: center;
+}
+#wb_portfolioText2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
 }
 #wb_portfolioLayoutGrid1
 {
@@ -121,7 +101,7 @@ input:focus, textarea:focus, select:focus
    margin-right: -15px;
    margin-left: -15px;
 }
-#portfolioLayoutGrid1 > .row > .col-1, #portfolioLayoutGrid1 > .row > .col-2
+#portfolioLayoutGrid1 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -130,7 +110,7 @@ input:focus, textarea:focus, select:focus
    padding-left: 15px;
    position: relative;
 }
-#portfolioLayoutGrid1 > .row > .col-1, #portfolioLayoutGrid1 > .row > .col-2
+#portfolioLayoutGrid1 > .row > .col-1
 {
    float: left;
 }
@@ -140,16 +120,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#portfolioLayoutGrid1 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 66.66666667%;
+   width: 100%;
    text-align: center;
 }
 #portfolioLayoutGrid1:before,
@@ -167,11 +138,31 @@ input:focus, textarea:focus, select:focus
 }
 @media (max-width: 480px)
 {
-#portfolioLayoutGrid1 > .row > .col-1, #portfolioLayoutGrid1 > .row > .col-2
+#portfolioLayoutGrid1 > .row > .col-1
 {
    float: none;
    width: 100% !important;
 }
+}
+#wb_portfolioText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_portfolioText1 div
+{
+   text-align: center;
 }
 #wb_portfolioLayoutGrid2
 {
@@ -185,7 +176,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
-   margin: 0;
+   margin: 1px 0px 0px 0px;
 }
 #portfolioLayoutGrid2
 {
@@ -218,7 +209,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 25%;
+   width: 100%;
    text-align: center;
 }
 #portfolioLayoutGrid2:before,
@@ -242,28 +233,41 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#wb_portfolioText3 
+#wb_portfolioFlexContainer2
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_portfolioText3 div
-{
-   text-align: center;
-}
-#wb_portfolioText3
-{
-   display: block;
-   margin: 0;
+   border: 0px solid #CCCCCC;
    box-sizing: border-box;
-   width: 100%;
+   position: relative;
 }
-#portfolioSlideShow1 .image
+#portfolioFlexContainer2
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 175px;
+   background-color: transparent;
+   background-image: none;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#portfolioSlideShow7 .image
 {
    border-width: 0;
    border-radius: 0px;
@@ -272,13 +276,13 @@ input:focus, textarea:focus, select:focus
    height: auto;
    width: 100%;
 }
-#portfolioSlideShow1 li
+#portfolioSlideShow7 li
 {
    width: 100%;
    left: 0;
    top: 0;
 }
-#portfolioSlideShow1
+#portfolioSlideShow7
 {
    display: inline-block;
    position: relative;
@@ -287,37 +291,53 @@ input:focus, textarea:focus, select:focus
    padding: 0;
    margin: 0;
 }
-#portfolioSlideShow1 li a:not(:first-child) .image
+#portfolioSlideShow7
 {
-   display: none;
-}
-#portfolioSlideShow2 .image
-{
-   border-width: 0;
-   border-radius: 0px;
-   display: block;
-   float: left;
-   height: auto;
-   width: 100%;
-}
-#portfolioSlideShow2 li
-{
-   width: 100%;
-   left: 0;
-   top: 0;
-}
-#portfolioSlideShow2
-{
-   display: inline-block;
-   position: relative;
-   list-style: none;
-   width: 100%;
-   padding: 0;
    margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
 }
-#portfolioSlideShow2 li a:not(:first-child) .image
+#portfolioSlideShow7 li a:not(:first-child) .image
 {
    display: none;
+}
+#wb_portfolioFlexContainer3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   position: relative;
+}
+#portfolioFlexContainer3
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 175px;
+   background-color: transparent;
+   background-image: none;
+   box-sizing: border-box;
+   font-size: 0px;
 }
 #portfolioSlideShow3 .image
 {
@@ -357,6 +377,40 @@ input:focus, textarea:focus, select:focus
 {
    display: none;
 }
+#wb_portfolioFlexContainer4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   position: relative;
+}
+#portfolioFlexContainer4
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 175px;
+   background-color: transparent;
+   background-image: none;
+   box-sizing: border-box;
+   font-size: 0px;
+}
 #portfolioSlideShow4 .image
 {
    border-width: 0;
@@ -395,43 +449,39 @@ input:focus, textarea:focus, select:focus
 {
    display: none;
 }
-#portfolioSlideShow5 .image
+#wb_portfolioFlexContainer5
 {
-   border-width: 0;
-   border-radius: 0px;
-   display: block;
-   float: left;
-   height: auto;
-   width: 100%;
-}
-#portfolioSlideShow5 li
-{
-   width: 100%;
-   left: 0;
-   top: 0;
-}
-#portfolioSlideShow5
-{
-   display: inline-block;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
    position: relative;
-   list-style: none;
-   width: 100%;
-   padding: 0;
-   margin: 0;
 }
-#portfolioSlideShow5
+#portfolioFlexContainer5
 {
-   margin: 0;
-   -webkit-flex-grow: 0;
-   flex-grow: 0;
-   -webkit-flex-shrink: 0;
-   flex-shrink: 0;
-   -webkit-align-self: auto;
-   align-self: auto;
-}
-#portfolioSlideShow5 li a:not(:first-child) .image
-{
-   display: none;
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 175px;
+   background-color: transparent;
+   background-image: none;
+   box-sizing: border-box;
+   font-size: 0px;
 }
 #portfolioSlideShow6 .image
 {
@@ -503,180 +553,6 @@ input:focus, textarea:focus, select:focus
 {
    display: none;
 }
-#portfolioSlideShow7 .image
-{
-   border-width: 0;
-   border-radius: 0px;
-   display: block;
-   float: left;
-   height: auto;
-   width: 100%;
-}
-#portfolioSlideShow7 li
-{
-   width: 100%;
-   left: 0;
-   top: 0;
-}
-#portfolioSlideShow7
-{
-   display: inline-block;
-   position: relative;
-   list-style: none;
-   width: 100%;
-   padding: 0;
-   margin: 0;
-}
-#portfolioSlideShow7
-{
-   margin: 0;
-   -webkit-flex-grow: 0;
-   flex-grow: 0;
-   -webkit-flex-shrink: 0;
-   flex-shrink: 0;
-   -webkit-align-self: auto;
-   align-self: auto;
-}
-#portfolioSlideShow7 li a:not(:first-child) .image
-{
-   display: none;
-}
-#wb_portfolioFlexContainer2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   position: relative;
-}
-#portfolioFlexContainer2
-{
-   display: -webkit-flex;
-   display: flex;
-   position: relative;
-   padding: 10px 10px 10px 10px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 175px;
-   background-color: transparent;
-   background-image: none;
-   box-sizing: border-box;
-   font-size: 0px;
-}
-#wb_portfolioFlexContainer3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   position: relative;
-}
-#portfolioFlexContainer3
-{
-   display: -webkit-flex;
-   display: flex;
-   position: relative;
-   padding: 10px 10px 10px 10px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 175px;
-   background-color: transparent;
-   background-image: none;
-   box-sizing: border-box;
-   font-size: 0px;
-}
-#wb_portfolioFlexContainer4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   position: relative;
-}
-#portfolioFlexContainer4
-{
-   display: -webkit-flex;
-   display: flex;
-   position: relative;
-   padding: 10px 10px 10px 10px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 175px;
-   background-color: transparent;
-   background-image: none;
-   box-sizing: border-box;
-   font-size: 0px;
-}
-#wb_portfolioFlexContainer5
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   position: relative;
-}
-#portfolioFlexContainer5
-{
-   display: -webkit-flex;
-   display: flex;
-   position: relative;
-   padding: 10px 10px 10px 10px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 175px;
-   background-color: transparent;
-   background-image: none;
-   box-sizing: border-box;
-   font-size: 0px;
-}
 #wb_portfolioFlexContainer6
 {
    background-color: transparent;
@@ -711,6 +587,259 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    font-size: 0px;
 }
+#portfolioSlideShow5 .image
+{
+   border-width: 0;
+   border-radius: 0px;
+   display: block;
+   float: left;
+   height: auto;
+   width: 100%;
+}
+#portfolioSlideShow5 li
+{
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+#portfolioSlideShow5
+{
+   display: inline-block;
+   position: relative;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+#portfolioSlideShow5
+{
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#portfolioSlideShow5 li a:not(:first-child) .image
+{
+   display: none;
+}
+#wb_portfolioLayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 1px 0px 0px 0px;
+}
+#portfolioLayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#portfolioLayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#portfolioLayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#portfolioLayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#portfolioLayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#portfolioLayoutGrid3:before,
+#portfolioLayoutGrid3:after,
+#portfolioLayoutGrid3 .row:before,
+#portfolioLayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#portfolioLayoutGrid3:after,
+#portfolioLayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#portfolioLayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_portfolioText3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_portfolioText3 div
+{
+   text-align: center;
+}
+#wb_portfolioText3
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_portfolioLayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 1px 0px 0px 0px;
+}
+#portfolioLayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#portfolioLayoutGrid4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#portfolioLayoutGrid4 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#portfolioLayoutGrid4 > .row > .col-1
+{
+   float: left;
+}
+#portfolioLayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#portfolioLayoutGrid4:before,
+#portfolioLayoutGrid4:after,
+#portfolioLayoutGrid4 .row:before,
+#portfolioLayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#portfolioLayoutGrid4:after,
+#portfolioLayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#portfolioLayoutGrid4 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#portfolioSlideShow2 .image
+{
+   border-width: 0;
+   border-radius: 0px;
+   display: block;
+   float: left;
+   height: auto;
+   width: 100%;
+}
+#portfolioSlideShow2 li
+{
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+#portfolioSlideShow2
+{
+   display: inline-block;
+   position: relative;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+#portfolioSlideShow2 li a:not(:first-child) .image
+{
+   display: none;
+}
+#portfolioSlideShow1 .image
+{
+   border-width: 0;
+   border-radius: 0px;
+   display: block;
+   float: left;
+   height: auto;
+   width: 100%;
+}
+#portfolioSlideShow1 li
+{
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+#portfolioSlideShow1
+{
+   display: inline-block;
+   position: relative;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+#portfolioSlideShow1 li a:not(:first-child) .image
+{
+   display: none;
+}
 #wb_uid3
 {
    color: #000000;
@@ -720,8 +849,17 @@ input:focus, textarea:focus, select:focus
 #wb_uid2
 {
    color: #000000;
-   font-family: "Trebuchet MS";
-   font-size: 27px;
+   font-family: "Verdana";
+   font-size: 32px;
+}
+#portfolioSlideShow2
+{
+   display: inline-block;
+   position: relative;
+   width: 282px;
+   height: 199px;
+   border-radius: 0px;
+   z-index: 18;
 }
 #wb_uid1
 {
@@ -744,6 +882,15 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    border-width: 0;
    z-index: 250;
+}
+#portfolioSlideShow1
+{
+   display: inline-block;
+   position: relative;
+   width: 282px;
+   height: 199px;
+   border-radius: 0px;
+   z-index: 19;
 }
 #portfolioSlideShow6
 {

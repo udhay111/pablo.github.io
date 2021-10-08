@@ -23,14 +23,14 @@
 <link href="favicon-32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="favicon-64.png" rel="icon" sizes="64x64" type="image/png">
 <link href="image106.png" rel="apple-touch-icon" sizes="288x286">
-<link href="css/wizzypedia.css?v=15" rel="stylesheet">
-<link href="css/portfolio.css?v=15" rel="stylesheet">
+<link href="css/wizzypedia.css?v=16" rel="stylesheet">
+<link href="css/portfolio.css?v=16" rel="stylesheet">
 <link rel="stylesheet" href="slimbox/css/slimbox2.css">
 </head>
 <body>
    <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0"></a>
    <div id="portfolioFlexContainer1">
-      <div id="wb_portfolioText2">
+      <div id="wb_portfolioText1">
          <span id="wb_uid1"><strong>Portfolio</strong></span>
       </div>
    </div>
@@ -38,11 +38,17 @@
       <div id="portfolioLayoutGrid1">
          <div class="row">
             <div class="col-1">
-               <div id="wb_portfolioText1">
-                  <span id="wb_uid2"><strong>Farmhouse Elevation</strong></span>
+               <div id="wb_portfolioText2">
+                  <span id="wb_uid2"><strong>Farm House Elevation</strong></span>
                </div>
             </div>
-            <div class="col-2">
+         </div>
+      </div>
+   </div>
+   <div id="wb_portfolioLayoutGrid2">
+      <div id="portfolioLayoutGrid2">
+         <div class="row">
+            <div class="col-1">
                <div id="wb_portfolioFlexContainer2">
                   <div id="portfolioFlexContainer2">
                      <ul id="portfolioSlideShow7">
@@ -83,8 +89,8 @@
          </div>
       </div>
    </div>
-   <div id="wb_portfolioLayoutGrid2">
-      <div id="portfolioLayoutGrid2">
+   <div id="wb_portfolioLayoutGrid3">
+      <div id="portfolioLayoutGrid3">
          <div class="row">
             <div class="col-1">
                <div id="wb_portfolioText3">
@@ -94,25 +100,39 @@
          </div>
       </div>
    </div>
+   <div id="wb_portfolioLayoutGrid4">
+      <div id="portfolioLayoutGrid4">
+         <div class="row">
+            <div class="col-1">
+               <ul id="portfolioSlideShow2">
+                  <li><a href="images/RetainingWall_02.jpg" data-rel="portfolioSlideShow2"><img class="image" src="images/RetainingWall_02.jpg" alt="" title=""></a></li>
+               </ul>
+               <ul id="portfolioSlideShow1">
+                  <li><a href="images/RetainingWall_01.jpg" data-rel="portfolioSlideShow1"><img class="image" src="images/RetainingWall_01.jpg" alt="" title=""></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
    <script src="js/jquery-1.12.4.min.js"></script>
    <script src="slimbox/js/slimbox2.js"></script>
    <script>   
    $(document).ready(function()
    {
-      $("a[data-rel='portfolioSlideShow1']").attr('rel', 'portfolioSlideShow1');
-      $("a[rel^='portfolioSlideShow1']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow2']").attr('rel', 'portfolioSlideShow2');
-      $("a[rel^='portfolioSlideShow2']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
+      $("a[data-rel='portfolioSlideShow7']").attr('rel', 'portfolioSlideShow7');
+      $("a[rel^='portfolioSlideShow7']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
       $("a[data-rel='portfolioSlideShow3']").attr('rel', 'portfolioSlideShow3');
       $("a[rel^='portfolioSlideShow3']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
       $("a[data-rel='portfolioSlideShow4']").attr('rel', 'portfolioSlideShow4');
       $("a[rel^='portfolioSlideShow4']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow5']").attr('rel', 'portfolioSlideShow5');
-      $("a[rel^='portfolioSlideShow5']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
       $("a[data-rel='portfolioSlideShow6']").attr('rel', 'portfolioSlideShow6');
       $("a[rel^='portfolioSlideShow6']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow7']").attr('rel', 'portfolioSlideShow7');
-      $("a[rel^='portfolioSlideShow7']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
+      $("a[data-rel='portfolioSlideShow5']").attr('rel', 'portfolioSlideShow5');
+      $("a[rel^='portfolioSlideShow5']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
+      $("a[data-rel='portfolioSlideShow2']").attr('rel', 'portfolioSlideShow2');
+      $("a[rel^='portfolioSlideShow2']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
+      $("a[data-rel='portfolioSlideShow1']").attr('rel', 'portfolioSlideShow1');
+      $("a[rel^='portfolioSlideShow1']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
    });
    </script>
 </body>

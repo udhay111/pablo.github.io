@@ -23,8 +23,8 @@
 <link href="favicon-32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="favicon-64.png" rel="icon" sizes="64x64" type="image/png">
 <link href="image106.png" rel="apple-touch-icon" sizes="288x286">
-<link href="css/wizzypedia.css?v=16" rel="stylesheet">
-<link href="css/portfolio.css?v=16" rel="stylesheet">
+<link href="css/wizzypedia.css?v=18" rel="stylesheet">
+<link href="css/portfolio.css?v=18" rel="stylesheet">
 <link rel="stylesheet" href="slimbox/css/slimbox2.css">
 </head>
 <body>
@@ -48,42 +48,22 @@
       <div id="portfolioLayoutGrid2">
          <div class="row">
             <div class="col-1">
-               <div id="wb_portfolioFlexContainer2">
-                  <div id="portfolioFlexContainer2">
-                     <ul id="portfolioSlideShow7">
-                        <li><a href="images/Sample_005.jpg" data-rel="portfolioSlideShow7"><img class="image" src="images/Sample_005.jpg" alt="" title=""></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div id="wb_portfolioFlexContainer3">
-                  <div id="portfolioFlexContainer3">
-                     <ul id="portfolioSlideShow3">
-                        <li><a href="images/Sample_001.jpg" data-rel="portfolioSlideShow3"><img class="image" src="images/Sample_001.jpg" alt="" title=""></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div id="wb_portfolioFlexContainer4">
-                  <div id="portfolioFlexContainer4">
-                     <ul id="portfolioSlideShow4">
-                        <li><a href="images/Sample_002.jpg" data-rel="portfolioSlideShow4"><img class="image" src="images/Sample_002.jpg" alt="" title=""></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div id="wb_portfolioFlexContainer5">
-                  <div id="portfolioFlexContainer5">
-                     <ul id="portfolioSlideShow6">
-                        <li><a href="images/Sample_004.jpg" data-rel="portfolioSlideShow6"><img class="image" src="images/Sample_004.jpg" alt="" title=""></a></li>
-                        <div class="caption"><div class="caption_background"><div class="caption_text"></div></div></div>
-                     </ul>
-                  </div>
-               </div>
-               <div id="wb_portfolioFlexContainer6">
-                  <div id="portfolioFlexContainer6">
-                     <ul id="portfolioSlideShow5">
-                        <li><a href="images/Sample_002.jpg" data-rel="portfolioSlideShow5"><img class="image" src="images/Sample_002.jpg" alt="" title=""></a></li>
-                     </ul>
-                  </div>
-               </div>
+               <ul id="portfolioSlideShow7">
+                  <li><a href="images/Sample_005.jpg" data-rel="portfolioSlideShow7"><img class="image" src="images/Sample_005.jpg" alt="" title=""></a></li>
+               </ul>
+               <ul id="portfolioSlideShow3">
+                  <li><a href="images/Sample_001.jpg" data-rel="portfolioSlideShow3"><img class="image" src="images/Sample_001.jpg" alt="" title=""></a></li>
+               </ul>
+               <ul id="portfolioSlideShow4">
+                  <li><a href="images/Sample_002.jpg" data-rel="portfolioSlideShow4"><img class="image" src="images/Sample_002.jpg" alt="" title=""></a></li>
+               </ul>
+               <ul id="portfolioSlideShow5">
+                  <li><a href="images/Sample_002.jpg" data-rel="portfolioSlideShow5"><img class="image" src="images/Sample_002.jpg" alt="" title=""></a></li>
+               </ul>
+               <ul id="portfolioSlideShow6">
+                  <li><a href="images/Sample_004.jpg" data-rel="portfolioSlideShow6"><img class="image" src="images/Sample_004.jpg" alt="" title=""></a></li>
+                  <div class="caption"><div class="caption_background"><div class="caption_text"></div></div></div>
+               </ul>
             </div>
          </div>
       </div>
@@ -118,6 +98,10 @@
    <script>   
    $(document).ready(function()
    {
+      $("a[data-rel='portfolioSlideShow2']").attr('rel', 'portfolioSlideShow2');
+      $("a[rel^='portfolioSlideShow2']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
+      $("a[data-rel='portfolioSlideShow1']").attr('rel', 'portfolioSlideShow1');
+      $("a[rel^='portfolioSlideShow1']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
       $("a[data-rel='portfolioSlideShow7']").attr('rel', 'portfolioSlideShow7');
       $("a[rel^='portfolioSlideShow7']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
       $("a[data-rel='portfolioSlideShow3']").attr('rel', 'portfolioSlideShow3');
@@ -128,10 +112,6 @@
       $("a[rel^='portfolioSlideShow6']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
       $("a[data-rel='portfolioSlideShow5']").attr('rel', 'portfolioSlideShow5');
       $("a[rel^='portfolioSlideShow5']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow2']").attr('rel', 'portfolioSlideShow2');
-      $("a[rel^='portfolioSlideShow2']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow1']").attr('rel', 'portfolioSlideShow1');
-      $("a[rel^='portfolioSlideShow1']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
    });
    </script>
 </body>

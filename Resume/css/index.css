@@ -912,7 +912,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    text-align: left;
-   vertical-align: top;
+   vertical-align: middle;
    color: #000000;
    font-family: Arial;
    font-size: 13px;

@@ -215,11 +215,172 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
 }
+#wb_portfolioLayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#portfolioLayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#portfolioLayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#portfolioLayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#portfolioLayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#portfolioLayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#portfolioLayoutGrid2:before,
+#portfolioLayoutGrid2:after,
+#portfolioLayoutGrid2 .row:before,
+#portfolioLayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#portfolioLayoutGrid2:after,
+#portfolioLayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#portfolioLayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_portfolioText3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_portfolioText3 div
+{
+   text-align: center;
+}
+#wb_portfolioText3
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#portfolioSlideShow1 .image
+{
+   border-width: 0;
+   border-radius: 0px;
+   display: block;
+   float: left;
+   height: auto;
+   width: 100%;
+}
+#portfolioSlideShow1 li
+{
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+#portfolioSlideShow1
+{
+   display: inline-block;
+   position: relative;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+#portfolioSlideShow1 li a:not(:first-child) .image
+{
+   display: none;
+}
+#portfolioSlideShow2 .image
+{
+   border-width: 0;
+   border-radius: 0px;
+   display: block;
+   float: left;
+   height: auto;
+   width: 100%;
+}
+#portfolioSlideShow2 li
+{
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+#portfolioSlideShow2
+{
+   display: inline-block;
+   position: relative;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+#portfolioSlideShow2 li a:not(:first-child) .image
+{
+   display: none;
+}
+#wb_uid3
+{
+   color: #000000;
+   font-family: "Trebuchet MS";
+   font-size: 27px;
+}
 #wb_uid2
 {
    color: #000000;
    font-family: "Trebuchet MS";
    font-size: 27px;
+}
+#portfolioSlideShow2
+{
+   display: inline-block;
+   position: relative;
+   width: 374px;
+   height: 264px;
+   border-radius: 0px;
+   z-index: 5;
 }
 #wb_uid1
 {
@@ -235,6 +396,15 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    border-width: 0;
    z-index: 250;
+}
+#portfolioSlideShow1
+{
+   display: inline-block;
+   position: relative;
+   width: 372px;
+   height: 262px;
+   border-radius: 0px;
+   z-index: 4;
 }
 #wb_portfolioPhotoCollage1
 {

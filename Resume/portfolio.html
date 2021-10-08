@@ -23,8 +23,9 @@
 <link href="favicon-32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="favicon-64.png" rel="icon" sizes="64x64" type="image/png">
 <link href="image106.png" rel="apple-touch-icon" sizes="288x286">
-<link href="css/wizzypedia.css?v=6" rel="stylesheet">
-<link href="css/portfolio.css?v=6" rel="stylesheet">
+<link href="css/wizzypedia.css?v=11" rel="stylesheet">
+<link href="css/portfolio.css?v=11" rel="stylesheet">
+<link rel="stylesheet" href="slimbox/css/slimbox2.css">
 </head>
 <body>
    <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0"></a>
@@ -70,13 +71,35 @@
          </div>
       </div>
    </div>
+   <div id="wb_portfolioLayoutGrid2">
+      <div id="portfolioLayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_portfolioText3">
+                  <span id="wb_uid3"><strong>Retaining Walls</strong></span>
+               </div>
+               <ul id="portfolioSlideShow1">
+                  <li><a href="images/RetainingWall_01.jpg" data-rel="portfolioSlideShow1"><img class="image" src="images/RetainingWall_01.jpg" alt="" title=""></a></li>
+               </ul>
+               <ul id="portfolioSlideShow2">
+                  <li><a href="images/RetainingWall_02.jpg" data-rel="portfolioSlideShow2"><img class="image" src="images/RetainingWall_02.jpg" alt="" title=""></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
    <script src="js/jquery-1.12.4.min.js"></script>
    <script src="js/jquery-ui.min.js"></script>
    <script src="js/wb.photocollage.min.js"></script>
+   <script src="slimbox/js/slimbox2.js"></script>
    <script>   
    $(document).ready(function()
    {
       $("#portfolioPhotoCollage1").photocollage({ effect: 'scale', duration: 600, padding: 4, matrix: '2,0,1,0,0,1,1,1,1' });
+      $("a[data-rel='portfolioSlideShow1']").attr('rel', 'portfolioSlideShow1');
+      $("a[rel^='portfolioSlideShow1']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
+      $("a[data-rel='portfolioSlideShow2']").attr('rel', 'portfolioSlideShow2');
+      $("a[rel^='portfolioSlideShow2']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
    });
    </script>
 </body>

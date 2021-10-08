@@ -530,8 +530,8 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    position: relative;
-   width: 300px;
-   height: 168px;
+   width: 266px;
+   height: 149px;
    border-radius: 0px;
    z-index: 5;
 }
@@ -539,8 +539,8 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    position: relative;
-   width: 300px;
-   height: 168px;
+   width: 266px;
+   height: 149px;
    border-radius: 0px;
    z-index: 6;
 }

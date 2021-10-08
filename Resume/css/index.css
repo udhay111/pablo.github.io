@@ -2994,7 +2994,7 @@ input:focus, textarea:focus, select:focus
 {
    display: table;
    width: 100%;
-   height: 102px;
+   height: 104px;
    z-index: 69;
 }
 #wb_uid101

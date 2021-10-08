@@ -5,9 +5,8 @@
 <title>Untitled Page</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/wizzypedia.css?v=1" rel="stylesheet">
-<link href="css/portfolio.css?v=1" rel="stylesheet">
-<link rel="stylesheet" href="slimbox/css/slimbox2.css">
+<link href="css/wizzypedia.css?v=2" rel="stylesheet">
+<link href="css/portfolio.css?v=2" rel="stylesheet">
 </head>
 <body>
    <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0"></a>
@@ -21,59 +20,30 @@
          <span id="wb_uid2"><strong>Farmhouse Elevation</strong></span>
       </div>
    </div>
-   <div id="wb_portfolioLayoutGrid1">
-      <div id="portfolioLayoutGrid1">
-         <div class="row">
-            <div class="col-1">
-               <ul id="portfolioSlideShow1">
-                  <li><a href="images/Sample_001.jpg" data-rel="portfolioSlideShow1"><img class="image" src="images/Sample_001.jpg" alt="" title=""></a></li>
-               </ul>
-            </div>
-            <div class="col-2">
-               <ul id="portfolioSlideShow2">
-                  <li><a href="images/Sample_002.jpg" data-rel="portfolioSlideShow2"><img class="image" src="images/Sample_002.jpg" alt="" title=""></a></li>
-               </ul>
-            </div>
-            <div class="col-3">
-               <ul id="portfolioSlideShow3">
-                  <li><a href="images/Sample_003.jpg" data-rel="portfolioSlideShow3"><img class="image" src="images/Sample_003.jpg" alt="" title=""></a></li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_portfolioLayoutGrid2">
-      <div id="portfolioLayoutGrid2">
-         <div class="row">
-            <div class="col-1">
-               <ul id="portfolioSlideShow4">
-                  <li><a href="images/Sample_004.jpg" data-rel="portfolioSlideShow4"><img class="image" src="images/Sample_004.jpg" alt="" title=""></a></li>
-               </ul>
-            </div>
-            <div class="col-2">
-               <ul id="portfolioSlideShow5">
-                  <li><a href="images/Sample_005.jpg" data-rel="portfolioSlideShow5"><img class="image" src="images/Sample_005.jpg" alt="" title=""></a></li>
-               </ul>
+   <div id="portfolioFlexContainer3">
+      <div id="wb_portfolioPhotoGallery1">
+         <div id="portfolioPhotoGallery1">
+            <div class="thumbnails">
+               <figure class="thumbnail">
+                  <a href="images/Sample_001.jpg"><img alt="" src="images/Sample_001.jpg" class="image"></a>
+               </figure>
+               <figure class="thumbnail">
+                  <a href="images/Sample_002.jpg"><img alt="" src="images/Sample_002.jpg" class="image"></a>
+               </figure>
+               <figure class="thumbnail">
+                  <a href="images/Sample_003.jpg"><img alt="" src="images/Sample_003.jpg" class="image"></a>
+               </figure>
+               <div class="clearfix visible-col3"></div>
+               <figure class="thumbnail">
+                  <a href="images/Sample_004.jpg"><img alt="" src="images/Sample_004.jpg" class="image"></a>
+               </figure>
+               <figure class="thumbnail">
+                  <a href="images/Sample_005.jpg"><img alt="" src="images/Sample_005.jpg" class="image"></a>
+               </figure>
+               <div class="clearfix visible-col3"></div>
             </div>
          </div>
       </div>
    </div>
-   <script src="js/jquery-1.12.4.min.js"></script>
-   <script src="slimbox/js/slimbox2.js"></script>
-   <script>   
-   $(document).ready(function()
-   {
-      $("a[data-rel='portfolioSlideShow1']").attr('rel', 'portfolioSlideShow1');
-      $("a[rel^='portfolioSlideShow1']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow2']").attr('rel', 'portfolioSlideShow2');
-      $("a[rel^='portfolioSlideShow2']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow3']").attr('rel', 'portfolioSlideShow3');
-      $("a[rel^='portfolioSlideShow3']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow4']").attr('rel', 'portfolioSlideShow4');
-      $("a[rel^='portfolioSlideShow4']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow5']").attr('rel', 'portfolioSlideShow5');
-      $("a[rel^='portfolioSlideShow5']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-   });
-   </script>
 </body>
 </html>

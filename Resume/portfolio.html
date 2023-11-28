@@ -26,93 +26,99 @@
 <link href="css/wizzypedia.css?v=19" rel="stylesheet">
 <link href="css/portfolio.css?v=19" rel="stylesheet">
 <link rel="stylesheet" href="slimbox/css/slimbox2.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+	margin: auto;
+	max-width: 600px;
+}
+
+h1 {
+	margin-top: 0;
+	text-align: left;
+	color: #0063DC;
+}
+
+p {
+	margin-top: 0;
+	font-size: 20px;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+ul,li{
+	font-size: 20px;
+	text-align: justify;
+}
+</style>
 </head>
 <body>
-   <div id="portfolioFlexContainer1">
-      <div id="wb_portfolioText1">
-         <span id="wb_uid1"><strong>Portfolio</strong></span>
-      </div>
-   </div>
-   <div id="wb_portfolioLayoutGrid1">
-      <div id="portfolioLayoutGrid1">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_portfolioText2">
-                  <span id="wb_uid2"><strong>Farm House Elevation</strong></span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_portfolioLayoutGrid2">
-      <div id="portfolioLayoutGrid2">
-         <div class="row">
-            <div class="col-1">
-               <ul id="portfolioSlideShow7">
-                  <li><a href="images/Sample_005.jpg" data-rel="portfolioSlideShow7"><img class="image" src="images/Sample_005.jpg" alt="" title=""></a></li>
-               </ul>
-               <ul id="portfolioSlideShow3">
-                  <li><a href="images/Sample_001.jpg" data-rel="portfolioSlideShow3"><img class="image" src="images/Sample_001.jpg" alt="" title=""></a></li>
-               </ul>
-               <ul id="portfolioSlideShow4">
-                  <li><a href="images/Sample_002.jpg" data-rel="portfolioSlideShow4"><img class="image" src="images/Sample_002.jpg" alt="" title=""></a></li>
-               </ul>
-               <ul id="portfolioSlideShow5">
-                  <li><a href="images/Sample_002.jpg" data-rel="portfolioSlideShow5"><img class="image" src="images/Sample_002.jpg" alt="" title=""></a></li>
-               </ul>
-               <ul id="portfolioSlideShow6">
-                  <li><a href="images/Sample_004.jpg" data-rel="portfolioSlideShow6"><img class="image" src="images/Sample_004.jpg" alt="" title=""></a></li>
-                  <div class="caption"><div class="caption_background"><div class="caption_text"></div></div></div>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_portfolioLayoutGrid3">
-      <div id="portfolioLayoutGrid3">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_portfolioText3">
-                  <span id="wb_uid3"><strong>Retaining Walls</strong></span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_portfolioLayoutGrid4">
-      <div id="portfolioLayoutGrid4">
-         <div class="row">
-            <div class="col-1">
-               <ul id="portfolioSlideShow2">
-                  <li><a href="images/RetainingWall_02.jpg" data-rel="portfolioSlideShow2"><img class="image" src="images/RetainingWall_02.jpg" alt="" title=""></a></li>
-               </ul>
-               <ul id="portfolioSlideShow1">
-                  <li><a href="images/RetainingWall_01.jpg" data-rel="portfolioSlideShow1"><img class="image" src="images/RetainingWall_01.jpg" alt="" title=""></a></li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div>
-   <script src="js/jquery-1.12.4.min.js"></script>
-   <script src="slimbox/js/slimbox2.js"></script>
-   <script>   
-   $(document).ready(function()
-   {
-      $("a[data-rel='portfolioSlideShow2']").attr('rel', 'portfolioSlideShow2');
-      $("a[rel^='portfolioSlideShow2']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow1']").attr('rel', 'portfolioSlideShow1');
-      $("a[rel^='portfolioSlideShow1']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow7']").attr('rel', 'portfolioSlideShow7');
-      $("a[rel^='portfolioSlideShow7']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow3']").attr('rel', 'portfolioSlideShow3');
-      $("a[rel^='portfolioSlideShow3']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow4']").attr('rel', 'portfolioSlideShow4');
-      $("a[rel^='portfolioSlideShow4']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow6']").attr('rel', 'portfolioSlideShow6');
-      $("a[rel^='portfolioSlideShow6']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-      $("a[data-rel='portfolioSlideShow5']").attr('rel', 'portfolioSlideShow5');
-      $("a[rel^='portfolioSlideShow5']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
-   });
-   </script>
+<h1>Portfolio</h1>
+<h2>Farm House Elevation</h2>
+<p>Farm House Prepared for a Client</p>
+
+<div class="row">
+	<center>
+  <div class="column">
+    <img src="images\Sample_001.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\Sample_002.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\Sample_004.jpg" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\Sample_005.jpg" alt="Mountains" style="width:100%">
+  </div>
+  </center>
+</div>
+
+<h2>Retaining Wall</h2>
+<p>Structural Retaining Wall for A astrucrural Firm With Details</p>
+
+<div class="row">
+  <div class="column">
+    <img src="images\RetainingWall_01.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\RetainingWall_02.jpg" alt="Forest" style="width:100%">
+  </div>
+</div>
+
+<h2>Post Office</h2>
+<p>Post Office for a near by Contractor's Specification</p>
+
+<div class="row">
+  <div class="column">
+    <img src="images\Post-Office-001.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\Post-Office-002.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\Post-Office-003.jpg" alt="Forest" style="width:100%">
+  </div>
+</div>
 </body>
 </html>
